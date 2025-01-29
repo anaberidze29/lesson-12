@@ -1,0 +1,66 @@
+.header-element {
+    margin: 0 auto;
+    background-color: #FFF;
+    width: 1220px;
+    padding: 50px 50px;
+    align-items: center;
+}
+.img {
+    width: 100%;
+}
+.header-right {
+    display: flex;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul-element {
+    display: flex;
+    width: 601px;
+    justify-content: space-between;
+    margin-right: 40px; 
+}
+.consulting {
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.section-bg {
+    background-image: url('../images/Photo.png');
+    height: 585px;
+    width: 1920px;
+    background-repeat: no-repeat;
+}
+.left-div {
+    width: 828px;
+    height: 458px;
+    background-color: #37393FE8;       
+}
+.box-div {
+    width: 482px;
+    height: 168px;   
+}
+.div-p {
+    width: 349px;
+    height: 168px;    
+}
+.p-text {
+    color: #FFF;
+}
+.text2 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #FFF;  
+}

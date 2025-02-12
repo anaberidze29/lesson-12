@@ -1,7 +1,8 @@
 .header-element {
     margin: 0 auto;
     background-color: #FFF;
-    width: 1220px;
+    max-width: 1220px;
+    width: 100%;
     padding: 50px 50px;
     align-items: center;
 }
@@ -38,21 +39,20 @@
 .section-bg {
     background-image: url('../images/Photo.png');
     height: 585px;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     background-repeat: no-repeat;
 }
 .left-div {
     width: 828px;
+    background-color: #37393FE8; 
+    display: grid; 
     height: 458px;
-    background-color: #37393FE8;       
+    place-content: center center;     
 }
 .box-div {
     width: 482px;
     height: 168px;   
-}
-.div-p {
-    width: 349px;
-    height: 168px;    
 }
 .p-text {
     color: #FFF;
@@ -63,4 +63,72 @@
     font-weight: 700;
     line-height: 66px;
     color: #FFF;  
+}
+.grid-container {
+    width: 1220px;
+    height: 1726px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.left-grid-box {
+    width: 478px;
+    height: 1534.85px;
+    border: 1px solid #000;
+}
+.small-box-grid {
+    border: 1px solid #000;
+.text-3 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31.75px;
+    color: #37393F;  
+      
+}
+.fc-button {
+    background-color: #6B77E5;
+    width: 408px;
+    height: 52.85px;
+    
+}
+.box-1 {
+    width: 478px;
+    height: 516.85px;
+    padding: 56px 35px 56px 35px;
+    gap: 10px;  
+    background-color: #F4F4F4;
+    margin-bottom: 50px;
+}
+.box-2 {
+    width: 478px;
+    height: 412px;
+    padding: 50px 45px 50px 44px;
+    gap: 10px; 
+    background-color: #F4F4F4;  
+    margin-bottom: 50px;  
+}
+.box-3 {
+    width: 478px;
+    height: 506px;    
+}
+.img-bg {
+    background-image: url('../images/Image.png');
+
+}
+.contact-button {
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right-grid-box {
+    width: Fixed 692px;
+    height: 1726px;
+    border: 1px solid #000;
 }
